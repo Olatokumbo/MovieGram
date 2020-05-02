@@ -1,0 +1,13 @@
+.container{
+    color: black;
+    margin-top:6rem;
+}
+.form{
+    display: flex;
+    justify-content: center !important;
+    align-items: baseline;
+}
+.search{
+    width: 18rem !important;
+    margin: 1rem !important;
+}

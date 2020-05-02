@@ -1,0 +1,7 @@
+.toolbar{
+    background-color: rgb(19, 19, 19) !important;
+}
+.container{
+    display: flex;
+    /* width: -webkit-fill-available !important; */
+}

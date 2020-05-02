@@ -1,0 +1,74 @@
+.cards{
+    margin: 2rem 0rem !important;
+    display:flex;
+    flex-direction: row-reverse;
+    width: 40rem !important;
+    min-height: 8rem !important;
+    justify-content: flex-start;
+    /* min-width: 30rem !important; */
+}
+/* .mainCard{
+    display: flex;
+    flex-direction: row-reverse;
+} */
+
+.cover{
+    min-width: 7.5rem !important;
+    max-width: 8.5rem !important;
+    width: auto !important;
+    height: 10rem !important;
+}
+.mainInfo{
+    flex:3 !important;
+    /* background-color: blue !important; */
+    /* margin-bottom: 1rem !important; */
+}
+.minorInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    /* align-items: flex-end !important; */
+    /* align-content: stretch !important; */
+}
+
+.content{
+    display: flex !important;
+    flex-direction: column !important;
+    align-content: space-around !important;
+    /* background-color: blueviolet !important; */
+    height: 100% !important;
+}
+.overview{
+    margin-bottom: 0rem !important;
+}
+
+@media only screen and (max-width: 670px) {
+    .cards{
+        margin: 1.2rem auto !important;
+        display:flex;
+        flex-direction: row-reverse !important;
+        width: 28rem !important; /*auto*/
+        min-width: 26rem !important;
+        min-height: 8rem !important;
+    }
+    .overview{
+        font-size: 0.6rem !important;
+        min-width: 5rem  !important;
+        margin-bottom: 1rem !important;
+    }
+    .minorInfo{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        /* align-items: flex-end !important; */
+        /* align-content: stretch !important; */
+    }
+    .minorInfo:nth-child(1){
+        color: white !important;
+    }
+    .mainInfo{
+        flex:3 !important;
+        /* background-color: blue !important; */
+    }
+}
+
